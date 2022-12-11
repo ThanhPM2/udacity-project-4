@@ -1,5 +1,5 @@
 # TODO: Change the name of the org 
-org: duongdd6
+org: 1703pmt
 app: serverless-udacity-todo
 service: serverless-udacity-todo
 
@@ -24,9 +24,9 @@ provider:
   # Use these variables in the functions and resouorces section below. For example, 
   # ${self:provider.environment.ATTACHMENT_S3_BUCKET}
   environment:
-    PROJECT_NAME: udacity-todo-220198
-    TODOS_TABLE: udacity-todo-220198-${self:provider.stage}
-    S3_BUCKET_NAME: udacity-todo-220198-${self:provider.stage}
+    PROJECT_NAME: udacity-todo-1703pmt
+    TODOS_TABLE: udacity-todo-1703pmt-${self:provider.stage}
+    S3_BUCKET_NAME: udacity-todo-1703pmt-${self:provider.stage}
 
 custom:
   documentation:
